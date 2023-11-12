@@ -1,6 +1,3 @@
-n = int(input())
-list = []
-for i in range(n):
-    list.append(input())
+list = [int(i) for i in input().split()]
+
 print(list)
-    
